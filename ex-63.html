@@ -1,0 +1,44 @@
+<!-- تبدیل پوند به کیلوگرم -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="ex-63.css">
+
+</head>
+
+<body>
+
+    <div id="container">
+
+        <h4>Convert pounds to kilograms</h4>
+
+        <div id="intro">
+
+            <label for="weight">Enter the weight in pounds : </label>
+
+            <input onchange="output()" id="weight" type="text">
+
+        </div>
+
+        <span>Weight in kilograms is equal to : <span id="demo"></span> </span>
+
+    </div>
+
+    <script>
+
+        function output() {
+
+            let weight = +document.getElementById("weight").value;
+
+            document.getElementById("demo").innerHTML = (weight / 2.2).toFixed(2);
+
+        }
+
+    </script>
+
+</body>
+
+</html>

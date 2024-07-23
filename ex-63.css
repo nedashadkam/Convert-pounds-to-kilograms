@@ -1,0 +1,36 @@
+#container {
+    width: 30%;
+    padding: 2%;
+    margin-left: 33%;
+    margin-top: 30vh;
+    background-color: aliceblue;
+    border: 2px dotted darkgray;
+}
+
+h4 {
+    margin-block-start: 0;
+}
+
+#intro {
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+input {
+    background-color: beige;
+    border: 1px solid darkgray;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input:hover {
+    box-shadow: 0px 0px 1px 1px rgb(223, 223, 223);
+}
+
+input:focus {
+    outline: 1px solid darkgray;
+}
+
+span {
+    margin-left: 10px;
+}
